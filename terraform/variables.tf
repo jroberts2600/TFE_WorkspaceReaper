@@ -3,16 +3,16 @@ variable "TFE_TOKEN" {
 }
 
 variable "TFE_URL" {
-  description = "Full TFE URL"
+  description = "https://app.terraform.io"
 }
 
 variable "TFE_ORG" {
-  description = "TFE Organization"
+  description = "jroberts"
 }
 
 variable "ui" {
   description = "Setting true or false to create UI for reporting reaper workspace"
-  default     = false
+  default     = true
 }
 
 variable "check_time" {
