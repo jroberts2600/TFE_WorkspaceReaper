@@ -3,7 +3,7 @@ variable "TFE_TOKEN" {
 }
 
 variable "TFE_URL" {
-  description = "https://app.terraform.io"
+  description = "https://app.terraform.io/app/jroberts/workspaces"
 }
 
 variable "TFE_ORG" {
