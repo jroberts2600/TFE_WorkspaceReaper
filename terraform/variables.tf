@@ -3,11 +3,11 @@ variable "TFE_TOKEN" {
 }
 
 variable "TFE_URL" {
-  description = "e.g. app.terraform.io"
+  description = "Full TFE URL"
 }
 
 variable "TFE_ORG" {
-  description = "org name"
+  description = "TFE Organization"
 }
 
 variable "ui" {
